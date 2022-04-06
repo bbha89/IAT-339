@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+    <title>Brandon Ha</title>
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/font.css" rel="stylesheet"> 
+    <link href="../css/grid.css" rel="stylesheet"> 
+  </head>
+
+  <body id="home">
+    
+    <!-- header content -->
+    <header>
+      <a href="#home">
+        <img src="../img/icons/logo.png" alt="home page" width="140" height="140">
+      </a>
+
+      <nav class="grid navbar grid-nav">
+        <a href="home.html#home" class="navbar-item navbar-topics">Home</a>     
+        <a href="home.html#about" class="navbar-item navbar-topics">About</a>
+        <a href="home.html#skills" class="navbar-item navbar-topics">Skills</a>
+        <a href="home.html#projects" class="navbar-item navbar-topics">Projects</a>
+        <a href="#contact" class="navbar-item navbar-contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="mobile-nav-pos">
+      <div class="nav-smallsize" id="menu">
+        <a href="home.html#home">Home</a>
+        <a href="home.html#about">About</a>
+        <a href="home.html#skills">Skills</a>
+        <a href="home.html#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <!-- Bio section -->
+    <div class="bio">
+      <h1 class="bio-greeting">Hi, my name is</h1>
+      <h2 class="bio-header">Brandon Ha.</h2>
+      <p class="bio-role">I'm a full stack web developer with a focus on combining my skills as a designer and developer to create dynamic, user-friendly websites.</p>
+      <div class="bio-contact">
+        <a href="#about" class="bio-link">About Me</a>
+      </div>
+      <div>
+        <a href="https://github.com/bbha89">
+          <img src="../img/icons/github.png" alt="github page" width="40" height="40" class="bio-img">
+        </a>
+        <a href="https://www.linkedin.com/in/brandon-h-b0997188/">
+          <img src="../img/icons/linkedln.png" alt="linkedln page" width="40" height="40" class="bio-img">
+        </a>
+      </div>
+    </div>
+
+    <!-- About section -->
+    <div id="about" class="about-scroll">
+      <div class="about-grid grid about-pos">
+        <div class="about-img-container">
+          <div class="about-img">
+            <img src="../img/user-details/brandon.jpg" alt="profile picture" width="828" height="744">
+          </div>
+        </div>
+        <div class="about-text">
+          <h2 class="about-header">About Me</h2>
+          <p class="about-p">I am a Computing Science student attending Simon Fraser University. I have an interest in <b>web development, databases, and software development.</b> I enjoy tackling problems in a team environment and working on creating dynamic and responsive webpages. My interests outside of school include strengthening my coding skills and design skills through personal projects and practice problems.</p>
+          <p class="about-p">I have experience creating interactive and responsive web design using <b>HTML, CSS, Javascript</b> through team development and personal projects. I have also worked on creating prototypes using <b>Figma</b> and have experience with database design using <b>MySQL</b>. Through projects, game design and practice problems, I have programming knowledge with <b>Java, C and Python.</b></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills section -->
+    <h2 class="skills-title">Tech Stack</h2>
+
+    <div id="skills" class="skills-section grid skills-grid skill-scroll">
+      <div class="skills-img-pos">
+        <div class="skills-img">
+          <img src="../img/icons/python.png" alt="Python icon" width="200" height="200" class="skills-img-size">
+        </div>
+      </div>
+      <div class="skills-img-pos">
+        <div class="skills-img">
+          <img src="../img/icons/java.png" alt="Java icon" width="200" height="200" class="skills-img-size">
+        </div>
+      </div>
+      <div class="skills-img-pos">
+        <div class="skills-img">
+          <img src="../img/icons/htmlcssjs.png" alt="html css js icon" width="200" height="200" class="skills-img-size">
+        </div>
+      </div>
+      <div class="skills-img-pos">
+        <div class="skills-img">
+          <img src="../img/icons/c.png" alt="C icon" width="200" height="200" class="skills-img-size">
+        </div>
+      </div>
+      <div class="skills-img-pos">
+        <div class="skills-img">
+          <img src="../img/icons/mysql.png" alt="MySQL icon" width="200" height="200" class="skills-img-size">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="fade_rule"></div>  
+
+    <!-- project section -->
+    <div id="projects" class="projects-header projects-scroll">
+        <h2 class="projects-title">Projects</h2>
+        <div class="flex-projects">
+          <div class="projects-spacing">
+              <a href="projects.html" class="project-hover">
+                <div class="project-img-center">
+                  <img src="../img/projects/express-website.png" alt="Real estate website project detail page" width="1000" height="450" class="project-frame">
+                </div>
+                <h3 class="project-description">Real Estate Listing</h3>
+                <p>An Express JS project done in a team of 3 giving registered users the features to buy and sell properties.</p>
+              </a>
+          </div>
+          <div class="projects-spacing">
+            <a href="#projects" class="project-hover">
+              <div class="project-img-center">
+                <img src="../img/projects/tech-website.png" alt="tech product website project detail page" width="1000" height="450" class="project-frame">
+              </div>
+              <h3 class="project-description">Electronic Store</h3>
+              <p>Combines HTML, CSS and JavaScript to develop a frontend website that is accessible, semantic and responsive.</p>
+            </a>
+          </div>
+          <div class="projects-spacing">
+            <a href="#projects" class="project-hover">
+              <div class="project-img-center">
+                <img src="../img/projects/mobile-canvas.png" alt="mobile canvas app project detail page" width="450" height="1000" class="project-frame">
+              </div>
+              <h3 class="project-description">Mobile App Redesign</h3>
+              <p>Redesigned the SFU Canvas mobile app in a team of four using Figma.</p>
+            </a>
+          </div>
+        </div>
+    </div>
+
+    <div class="fade_rule"></div>  
+
+
+    <!-- footer -->
+    <div id="contact" class="footer-content">
+      <h2 class="footer-title">Contact</h2>
+      <p>Phone: 778-929-7272</p>
+      <p>Email: bbha@sfu.ca</p>
+      <div class="copyright">
+        <div>&copy;2022 All Rights Reserved. Made By Brandon Ha</div>
+      </div>
+    </div>
+    
+    <script src="../js/dropdown.js"></script>
+  </body>
+</html>

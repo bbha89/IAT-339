@@ -1,0 +1,26 @@
+Project 3 - Citation List
+
+Fonts
+https://www.dafontfree.io/avenir-font-free/ 
+https://fonts.google.com/specimen/Inter
+
+JavaScript
+https://andrewh.ca/teaches/web_design_and_development/#code-tutorial-files
+
+fade lines: https://codepen.io/kannankumar/pen/qNJaQO
+
+logo: https://express.adobe.com/express-apps/logomaker/
+
+github icon: https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU
+
+linkedln icon: https://media-exp1.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_200_200/0/1638831589865?e=2147483647&v=beta&t=Zq1zixRFUNMSm2Ldgu_hcJAYTL1gWG3VHKXO4kf9lDQ
+
+python icon: https://www.linuxadictos.com/wp-content/uploads/python-logo-1.jpg
+
+java icon: https://cdn.iconscout.com/icon/free/png-256/java-60-1174953.png
+
+htmlcssjavascript icon: http://p92.com/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png
+
+c icon: https://toppng.com/uploads/preview/c-programming-icon-c-programming-language-logo-11562945679duaxtn3yq0.png
+
+mysql icon: https://www.vectorlogo.zone/logos/mysql/mysql-official.svg

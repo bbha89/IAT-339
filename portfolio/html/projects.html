@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+    <title>Brandon Ha</title>
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/font.css" rel="stylesheet"> 
+    <link href="../css/grid.css" rel="stylesheet"> 
+  </head>
+
+  <body id="home" class="projects-layout">
+
+    <!-- header content -->
+    <header>
+      <a href="home.html#home">
+        <img src="../img/icons/logo.png" alt="home page" width="140" height="140">
+      </a>
+
+      <nav class="grid navbar grid-nav">
+        <a href="home.html#home" class="navbar-item navbar-topics">Home</a>     
+        <a href="home.html#about" class="navbar-item navbar-topics">About</a>
+        <a href="home.html#skills" class="navbar-item navbar-topics">Skills</a>
+        <a href="home.html#projects" class="navbar-item navbar-topics">Projects</a>
+        <a href="#contact" class="navbar-item navbar-contact">Contact</a>
+      </nav>
+    </header>
+
+    <div class="mobile-nav-pos">
+      <div class="nav-smallsize" id="menu">
+        <a href="home.html#home">Home</a>
+        <a href="home.html#about">About</a>
+        <a href="home.html#skills">Skills</a>
+        <a href="home.html#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <!-- Real estate project -->
+    <div class="info-text">
+      <div>
+        <h1 class="info-project-header">Real Estate Listing Website</h1>
+        <p class="info-p">Express JS website allowing users to buy and sell real estate properties</p>
+        <div class="contact-link">
+          <a href="https://github.com/bbha89/CMPT-470" class="info-link">Github Repo</a>
+        </div>
+      </div>
+
+      <figure>
+        <img src="../img/projects/express-website.png" alt="Real estate homepage" width="749" height="614" class="info-img">
+        <figcaption>Website Homescreen</figcaption>
+      </figure>
+
+      <h2 class="info-details-header">About this project</h2>
+      <p class="info-p">The project was developed by a team of 3 students to create a real-estate listing website. The websites main features allow registered users to sell properties and also search and view detailed description of nearby properties for sale through a search engine. My role in the project was to create a sell page which allowed for storing of listing data in the database and displaying the listing details from the database when a listing is viewed.</p>
+
+      <h2 class="info-details-header">Tools</h2>
+      <p class="info-p">On the technical side, we used MySQL as our database to store data, nginx to serve static files and express primarily for its middleware features like cookie parsing, routing and web developnment capabilities. To display HTML content, we used EJS as it allows for easy injection of JavaScript, thus, easy implementation of dynamic and responsive UI.</p>
+
+      <h2 class="info-details-header">Challenges</h2>
+      <p class="info-p">The first challenge I faced as a developer was learning a new language Express JS from scratch in a short period of time. The second challenge I faced was ensuring my code followed a similar coding structure as my teammates.</p>
+
+      <figure>
+        <img src="../img/projects/code-structure.png" alt="Real estate file structure" width="749" height="614" class="info-img">
+        <figcaption>Team Code Structure</figcaption>
+      </figure>
+
+      <h2 class="info-details-header">Solutions</h2>
+      <p class="info-p">In performing my responsibilities, I had to first thoroughly teach myself about the Express framework. I was able to accomplish this through reading documentations, watching videos as resource and receiving help from my teammates. We would frequently share with each other documentations to further our understanding of the language. While coding, we would consult with each other to finds ways to better approach implementing a feature as well to ensure we are all following similar coding and a organized project file structure for better clarity when reviewing each others code.</p>
+
+      <h2 class="info-details-header">Reflection</h2>
+      <p class="info-p">Through my experience developing the website in a team of three, I was able to strengthen my ability to read and produce good documentation so that others can view with ease. Additionally, I was able to strengthen my HTML, CSS and Express JS knowledge.</p>
+    </div>
+
+    <div class="fade_rule"></div>  
+
+    <!-- footer -->
+    <div id="contact" class="footer-content">
+      <h2 class="footer-title">Contact</h2>
+      <p>Phone: 778-929-7272</p>
+      <p>Email: bbha@sfu.ca</p>
+      <div class="copyright">
+        <div>&copy;2022 All Rights Reserved. Made By Brandon Ha</div>
+      </div>
+    </div>
+    
+    <script src="../js/dropdown.js"></script>
+  </body>
+</html>
